@@ -24,11 +24,13 @@ button {
 li {
     font-size: 14px;
     font-weight: bold;
+    display: flex;
 }
 
 h1 {
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 36px;
+    color: #1a202c;
+    font-weight: 700;
 }
 
 button:hover {
@@ -48,6 +50,10 @@ a {
     cursor: pointer;
 }
 
+img {
+    max-width: 100%;
+}
+
 
 /*
 
@@ -64,11 +70,17 @@ nav {
 .nav__container {
     width: 100%;
     max-width: 1200px;
-    padding: 32px;
+    padding: 0 32px;
     display: flex;
     justify-content:space-between;
     margin: 0 auto;
     align-items: center;
+}
+
+.p__nav {
+color: #243e63;
+font-size: 24px;
+font-weight: 900;
 }
 
 .nav__links {
@@ -104,4 +116,44 @@ nav {
     display: flex;
     align-items: center;
     margin-left: 40px;
+}
+
+/* 
+
+HEADER DESCRIPTION
+
+*/
+
+.header__container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding:96px 32px;
+}
+
+.header__description {
+    text-align: left;
+    width: 42%;
+}
+
+.header__img--left {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.header__img--right {
+width: 100%;
+}
+
+.p__header {
+    margin: 32px 0;
+}
+
+
+.header__purple {
+    color: #6415ff;
+    display: flex;
+    flex-wrap: wrap;
 }
