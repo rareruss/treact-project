@@ -141,6 +141,7 @@ HEADER DESCRIPTION
 .header__img--left {
     width: 100%;
     margin-top: 20px;
+    opacity: 0.5;
 }
 
 .header__img--right {
@@ -149,11 +150,47 @@ width: 100%;
 
 .p__header {
     margin: 32px 0;
+    line-height: 1.5;
 }
 
+.p__customer {
+    opacity: 0.5;
+}
 
 .header__purple {
     color: #6415ff;
     display: flex;
     flex-wrap: wrap;
 }
+
+.input--wrapper {
+    position: relative; 
+    display: inline-block;
+}
+
+input {
+    padding-right: 40px;
+    width: 100%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-right: 12rem;
+
+}
+
+.input__btn {
+    background-color: #6415ff;
+    padding: 12px 32px;
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 24px;
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    border: none;  
+}
+
+.customers--wrapper {
+    margin-top: 80px;
+}
+
