@@ -217,6 +217,7 @@ FEATURES
     font-weight: 700;
     text-align: center;
     font-size: 16px;
+    letter-spacing: 0.1rem;
 }
 
 .h2__feature {
@@ -293,6 +294,7 @@ QUALITY WORK
 .container__quality-all {
     display: flex;
     width: 100%;
+    margin-bottom: 80px;
 }
 
 .container__quality {
@@ -340,3 +342,26 @@ QUALITY WORK
 .quality__img {
     border: 1px solid rgb(226, 232, 240);
 }
+
+/*
+
+STEPS
+
+*/
+
+.container__steps--all {
+    display: flex;
+    width: 100%;
+}
+
+.container__steps--img {
+    width: 45%;
+}
+
+.container__steps {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
