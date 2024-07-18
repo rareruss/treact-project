@@ -421,3 +421,140 @@ STEPS
     color: #718096;
     font-weight: 500;
 }
+
+/* 
+
+VALUES
+
+*/
+
+.values__container--main {
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+}
+
+.values__container--text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.values__img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h3__values {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: left;
+    margin-left: 12px;
+    color: #243e63;  
+}
+
+.values__container {
+    display: flex;
+}
+
+.value__container {
+    width: 50%;
+}
+
+.p__values {
+    text-align: left;
+    line-height: 1.625rem;
+    font-weight: 500;
+    margin-top: 16px;
+    color: #718096;
+
+}
+
+.img__h3 {
+    display: flex;
+}
+
+.btn__learn--values {
+    background-color: #6415ff;
+    width: 30%;
+    padding: 18px 32px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 100px;
+    margin-top: 48px;  
+}
+
+.suitcase__img {
+    --tw-bg-opacity: 1;
+    background-color: rgb(254 178 178 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(155 44 44 / var(--tw-text-opacity));
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dollar__sign--img {
+    --tw-bg-opacity: 1;
+    background-color: rgb(154 230 180 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(39 103 73 / var(--tw-text-opacity));
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+
+PLANS
+
+*/
+
+.plans__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan {
+    width: calc(100%/3);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(226, 232, 240) ;
+}
+
+.pricing__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p__pricing {
+    line-height: 2;
+    max-width: 36rem;
+    text-align: center;
+    font-weight: 500;
+    color: #718096;
+    padding-bottom: 32px;
+    padding-right: 10px;  
+}
+
+.h3__pricing {
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 15px;
+    color: #243e63; 
+}
+
