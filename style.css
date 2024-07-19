@@ -774,24 +774,82 @@ FOOTER
 
 footer {
   background-color: rgb(100 21 255);;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.row__links {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .links {
   display: flex;
   flex-wrap: wrap;
   color: white;
-  
+  justify-content: space-between;
 }
 
 .link {
   display: flex;
   flex-direction: column;
-  width: calc(100%/5);
-  align-items: center;
+  margin-top: 48px;
 }
 
 .footer__info {
  display: flex;
  justify-content: space-between;
  align-items: center; 
+ color: white;
+}
+
+.footer__links {
+  list-style-type: none;
+  margin-top: 22px;
+}
+
+.footer__link {
+  margin-top: 12px;
+}
+
+.footer__img {
+  width: 32px;
+  display: flex;
+}
+
+.img__logo--footer {
+  display: flex;
+}
+
+.footer__header {
+  font-size: 20px;
+  font-weight: 900;
+  margin-left: 8px;
+}
+
+.footer__line {
+  opacity: 0.5;
+  margin: 64px 0;
+}
+
+.footer__btn {
+  padding: 8px;
+  border-radius: 9999px;
+  border: none;
+  margin-right: 16px;
+  background-color: white;
+}
+
+.footer__btn--facebook {
+  padding: 8px 12px;
+  border-radius: 9999px;
+  border: none;
+  margin-right: 16px;
+  background-color: white;
+}
+
+.img__header {
+  display: flex;
+  align-items: center;
 }
