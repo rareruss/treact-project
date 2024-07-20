@@ -452,6 +452,8 @@ text-align: center;
 
 .list__description {
   margin-left: 24px;
+  text-align: left;
+
 }
 
 .list__number {
@@ -1143,6 +1145,10 @@ align-items: center;
 
 .pricing__img {
   width: 100%;
+}
+
+.testimonials__container {
+  padding: 80px 0;
 }
 
 .testimonials__description--container {
