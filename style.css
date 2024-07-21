@@ -7,12 +7,15 @@
   box-sizing: border-box;
 }
 
+section {
+  padding: 32px;
+}
+
 
 .row {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 50px;
 }
 
 button {
@@ -945,8 +948,6 @@ footer {
   font-weight: 900;
   margin-left: 8px;
   color: white;
-  text-decoration: none;
-  text-decoration: underline none;
 }
 
 .footer__header:hover {
@@ -997,7 +998,7 @@ footer {
 
 /*Small Phones, tablets, large smartphones*/
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
 
   * {
     box-sizing: content-box;
@@ -1141,6 +1142,11 @@ width: 100%;
   justify-content: center;
 }
 
+.container__steps {
+  margin: 0;
+  text-align: center;
+}
+
 .header__list--purple {
   text-align: center;
 }
@@ -1155,8 +1161,9 @@ width: 100%;
   text-align: center;
 }
 
-.list__description{
-  margin-top: 12px;
+.list__description {
+  margin: 12px 0;
+  text-align: center;
 }
 
 .values__container--main{
